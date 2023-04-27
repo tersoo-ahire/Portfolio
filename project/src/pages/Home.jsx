@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import "../styles/App.css";
 import Button from "../components/Button";
 import Project from "../components/Project";
+import Testimonial from "../components/Testimonial";
 import tersoo from "../assets/tersoo.png";
 import {SkillcardOne, SkillcardTwo} from "../components/Skillcard";
 import skilldata1 from "../data/skill1";
@@ -117,7 +118,7 @@ function Home(){
                 </div>
             </div>
 
-            {/* <Testimonials/> */}
+            <Testimonial/>
 
             <div className="section-five">
                 <div className="shape1"></div>
