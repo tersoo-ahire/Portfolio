@@ -392,8 +392,10 @@ button:hover {
   font-weight: 400;
   font-size: 1.25rem;
   display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
   text-align: left;
-  color: #58D898;
+  color: #58D898;;
 }
 
 .project-h3 {

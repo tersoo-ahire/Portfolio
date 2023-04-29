@@ -25,6 +25,7 @@ export default function Testimonial(){
             <div className="test-nav">
                 <div className="nav-circle"></div>
                 <div className="nav-circle"></div>
+                <div className="nav-circle"></div>
             </div>
         </section>
     )
