@@ -39,7 +39,7 @@ export default function Project(){
             </div>
             <div className="project-right">
                 <div className="project-right-sub1"></div>
-                <div className="project-right-sub2"></div>
+                <iframe src="https://tersoo-ahire.github.io/Huddle-Landing-Page/" className="project-right-sub2"></iframe>
             </div>
         </div>
         </>
