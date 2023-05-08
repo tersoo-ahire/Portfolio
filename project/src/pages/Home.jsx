@@ -2,6 +2,7 @@ import React from "react";
 import { useEffect } from 'react';
 import { Link } from "react-router-dom";
 import "../styles/App.css";
+import "../styles_mobile/App.css";
 import Button from "../components/Button";
 import Project from "../components/Project";
 import Testimonial from "../components/Testimonial";

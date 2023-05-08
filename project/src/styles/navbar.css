@@ -56,3 +56,7 @@ a:hover {
 .github-container:hover {
     background-color: black;
 }
+
+.mobile-nav-toggle {
+    display: none;
+}
