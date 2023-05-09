@@ -83,4 +83,23 @@
         width: 100%;
         font-size: 0.875rem;
     }
+
+    .thankyou-container {
+        margin-top: 180px;
+        padding: 0em 1em;
+        margin-bottom: 0px;
+    }
+
+    .thankyou-container img {
+        width: 50%;
+    }
+
+    .thankyou-h2 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .thankyou-p {
+        font-size: 1rem;
+    }
 }
