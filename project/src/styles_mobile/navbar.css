@@ -7,6 +7,7 @@
         right: 0;
         z-index: 100;
     }
+
     .nav-center {
       display: none;
     }
@@ -35,7 +36,8 @@
       top: 100px;
       left: 0;
       width: 100%;
-      border: 2px solid #25262A;
+      border: 1.5px solid #25262A;
+      box-shadow: 0px 8px 8px rgba(81, 79, 83, 0.541);
     }
 
     .nav-center.open a {

@@ -1,5 +1,86 @@
 @media (max-width: 500px) {
-    p {
-        color:50px;
+    button {
+        width: 115px;
+        height: 35px;
+        border-radius: 8px;
+        font-size: 0.9rem;
+        padding: 0em;
+    }
+
+    .button-two {
+        width: 115px;
+        height: 35px;
+        border-radius: 8px;
+        font-size: 0.9rem;
+        padding: 0em;
+    }
+
+    .contact-container {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0em 1em;
+        margin-top: 8em;
+        margin-bottom: 0em;
+    }
+
+    .contact-container-left {
+        width: 100%;
+        gap: 1.5em;
+    }
+
+    .hero-p1 {
+        font-size: 1rem;
+    }
+
+    .contact-container-left-h4 {
+        font-size: 1.5rem;
+    }
+
+    .contact-container-left-p {
+        font-size: 1rem;
+    }
+
+    .phone-container {
+        gap: 1.5em;
+    }
+
+    .email-container {
+        gap: 1.5em;
+    }
+
+    .contact-bg {
+        width: 60px;
+        height: 60px;
+    }
+
+    .contact-bg img {
+        width: 25px;
+    }
+
+    .contact-title {
+        font-size: 1rem;
+        line-height: 30px;
+    }
+
+    .contact-detail {
+        font-size: 0.875rem;
+        font-weight: 300;
+    }
+
+    .contact-container-right {
+        width: 100%;
+    }
+
+    .top {
+        flex-direction: column;
+    }
+
+    input {
+        width: 100%;
+    }
+
+    textarea {
+        width: 100%;
+        font-size: 0.875rem;
     }
 }

@@ -17,7 +17,7 @@ export default function Footer(){
             
             <em className="email">tersooahire21@gmail.com</em>
             
-            <p className="freelance1">© 2022 Freelancer - Ahire Tersoo David. All rights reserved.</p>
+            <p className="freelance1">© 2023 - Ahire Tersoo David. All rights reserved.</p>
             
             <div className="socials-container">
                 <a href="https://github.com/tersoo-ahire" target="_blank" rel="noopener noreferrer" className="social-icon">
@@ -42,7 +42,7 @@ export default function Footer(){
                 <Link to="/contact">Contact</Link>
             </div>
 
-            <p className="freelance2">© 2022 Freelancer - Ahire Tersoo David. All rights reserved.</p>
+            <p className="freelance2">© 2023 - Ahire Tersoo David. All rights reserved.</p>
         </footer>
     )
 }
