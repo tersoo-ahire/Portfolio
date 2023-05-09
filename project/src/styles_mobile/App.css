@@ -201,4 +201,99 @@
     .section-one-right-p2 {
         font-size: 1rem;
     }
+
+    .section-two {
+        padding: 2em 1em;
+        gap: 7em;
+    }
+
+    .project-container {
+        flex-direction: column;
+    }
+
+    .project-left {
+        width: 100%;
+        margin-top: -50px;
+    }
+
+    .project-right {
+        width: 90%;
+        margin: 0 auto;
+        height: 250px;
+    }
+
+    .project-p1 {
+        font-size: 1rem;
+    }
+
+    .project-h3 {
+        font-size: 1.5rem;
+        line-height: 10px;
+    }
+
+    .project-p2 {
+        font-size: 1rem;
+    }
+
+    .project-p3 {
+        font-size: 1rem;
+        align-items: center;
+        margin-bottom: 35px;
+    }
+
+    .project-p3 > img {
+        width: 28px;
+    }
+
+    #button-three {
+        width: 80px;
+    }
+
+    #button-three > a {
+        font-size: 0.9rem;
+    }
+
+    #button-three:nth-child(even){
+        width: 110px;
+    }
+
+    #button-three:nth-child(even):hover {
+        width: 120px;
+    }
+
+    .outercircle1 {
+        width: 85px;
+        height: 85px;
+        margin: 0em 0.5em;
+    }
+
+    .innercircle1 {
+        top: -10px;
+        bottom: -10px;
+        right: -10px;
+        left: -10px;
+    }
+
+    .outercircle2 {
+        width: 85px;
+        height: 85px;
+        margin: 0em 0.5em;
+        margin-left: auto;
+    }
+
+    .innercircle2 {
+        top: -10px;
+        bottom: -10px;
+        right: -10px;
+        left: -10px;
+    }
+
+    .viewall {
+        padding: 0.625em;
+        border-radius: 10px;
+    }
+
+    .viewall > a {
+        font-size: 0.9rem;
+    }
 }
