@@ -1,0 +1,55 @@
+@media (max-width:500px) {
+    footer {
+        flex-direction: column;
+        height: auto;
+        padding: 1.625em 1em;
+        gap: 1em;
+    }
+
+    .image {
+        width: 120px;
+    }
+
+    .email {
+        display: block;
+        font-weight: 400;
+        font-size: 0.875rem;
+        margin-top: 10px;
+    }
+
+    .freelance1 {
+        display: none;
+    }
+
+    .freelance2 {
+        font-weight: 400;
+        font-size: 0.875rem;
+        color: #AFB3BC;
+        display: block;
+    }
+    
+    .title {
+        font-weight: 700;
+        font-size: 1rem;
+        margin-top: 10px;
+        margin-bottom: 0px;
+        color: #FFA400;
+        display: block;
+    }
+
+    .links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1em;
+    }
+
+    .links a {
+        font-size: 0.875rem;
+    }
+
+    .socials-container {
+        margin-bottom: 0px;
+        line-height: 0px;
+    }
+}
