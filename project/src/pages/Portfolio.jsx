@@ -5,7 +5,7 @@ import Project from "../components/Project";
 
 function Portfolio(){
     return (
-        <div className="section-two">
+        <div className="section2">
             <Project/>
             <div className="outercircle1">
                 <div className="innercircle1"></div>

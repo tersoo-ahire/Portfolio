@@ -207,6 +207,12 @@
         gap: 7em;
     }
 
+    .section2 {
+        margin-top: 10em;
+        padding: 2em 1em;
+        gap: 7em;
+    }
+
     .project-container {
         flex-direction: column;
     }
@@ -396,9 +402,48 @@
         border: 3px solid #F6C000;
     }
 
+    hr {
+        width: 64px;
+    }
+
     .hr2 {
         display: block;
         width: 50px;
         border: 1px solid #808080;
+    }
+
+    .section-five {
+        margin: 0em 1em;
+        border-radius: 24px;
+        padding: 3em 2.25em;
+        gap: 1.25em;
+    }
+
+    .section-five-h4 {
+        font-size: 1.5rem;
+    }
+
+    .section-five-p {
+        font-weight: 300;
+        font-size: 0.9rem;
+    }
+
+    .shape1 {
+        width: 50px;
+        height: 50px;
+    }
+
+    .shape2 {
+        width: 50px;
+        height: 50px;
+    }
+
+    .whatsapp {
+        width: 60px;
+        right: 1em;
+    }
+
+    .whatsapp:hover {
+        width: 65px;
     }
 }
