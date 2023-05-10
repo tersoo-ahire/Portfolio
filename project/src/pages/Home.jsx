@@ -94,6 +94,7 @@ function Home(){
                 <div className="card-circle1">
                     <div className="card-circle1-inner"></div>
                 </div>
+
                 <div className="section-three-left">
                     <div className="card1">
                         <div className="card-p1">10</div>
@@ -104,6 +105,7 @@ function Home(){
                         <div className="card-p2">Projects Done</div>
                     </div>
                 </div>
+
                 <div className="section-three-right">
                     <div className="card3">
                         <div className="card-p1">7</div>
@@ -114,6 +116,7 @@ function Home(){
                         <div className="card-p2">Years Experience</div>
                     </div>
                 </div>
+                
                 <div className="card-circle2">
                     <div className="card-circle2-inner"></div>
                 </div>

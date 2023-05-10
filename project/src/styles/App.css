@@ -504,6 +504,7 @@ button:hover {
 
 .section-three {
   display: flex;
+  width: 100%;
   flex-direction: row;
   padding: 6em 3em;
   height: auto;
@@ -511,13 +512,13 @@ button:hover {
   position: relative;
 }
 
-.section-three-left{
+.section-three-left {
   display: flex;
   width: 50%;
   gap: 1em;
 }
 
-.section-three-right{
+.section-three-right {
   display: flex;
   width: 50%;
   gap: 1em;
@@ -608,7 +609,7 @@ button:hover {
   bottom: 65px;
   z-index: -1;
   animation-name: leftcircle;
-  animation-duration: 100s;
+  animation-duration: 50s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
 }
@@ -649,7 +650,7 @@ button:hover {
   top: 65px;
   z-index: -1;
   animation-name: rightcircle;
-  animation-duration: 100s;
+  animation-duration: 50s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
 }
