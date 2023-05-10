@@ -15,7 +15,7 @@ export default function Testimonial() {
         },
         {
             id: 2,
-            image: "",
+            image: "/lady.png",
             text:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nunc sapien, vehicula non eleifend non, interdum at lectus. Fusce quis blandit dolor. Nam vel risus purus.",
             author: "John Doe",
@@ -56,6 +56,7 @@ export default function Testimonial() {
                     <p className="test-p1" data-testimonial={testimonials[currentSlide].id}>
                         {testimonials[currentSlide].text}
                     </p>
+                    <hr className="hr2"/>
                     <p className="test-p2">{testimonials[currentSlide].author}</p>
                     <p className="test-p3">{testimonials[currentSlide].company}</p>
                 </div>
