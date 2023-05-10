@@ -116,7 +116,7 @@ function Home(){
                         <div className="card-p2">Years Experience</div>
                     </div>
                 </div>
-                
+
                 <div className="card-circle2">
                     <div className="card-circle2-inner"></div>
                 </div>

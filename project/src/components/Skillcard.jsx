@@ -6,7 +6,7 @@ export function SkillcardOne(props){
         <div className="skillcard">
             <div className="skillcard-icon-container">
                 <img src={props.icon} alt="Skill Icon"/>
-                <img src={props.iconalt} alt="Skill Icon" class="hover-image"/>
+                <img src={props.iconalt} alt="Skill Icon" className="hover-image"/>
             </div>
             <p className="skillcard-p1">{props.title}</p>
             <p className="skillcard-p2">{props.description}</p>
@@ -19,7 +19,7 @@ export function SkillcardTwo(props){
         <div className="skillcard">
             <div className="skillcard-icon-container">
                 <img src={props.icon} alt="Skill Icon" />
-                <img src={props.iconalt} alt="Skill Icon" class="hover-image"/>
+                <img src={props.iconalt} alt="Skill Icon" className="hover-image"/>
             </div>
             <p className="skillcard-p1">{props.title}</p>
             <p className="skillcard-p2">{props.description}</p>
