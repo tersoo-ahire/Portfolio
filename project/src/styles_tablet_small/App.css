@@ -298,4 +298,147 @@
     .viewall > a {
         font-size: 0.9rem;
     }
+
+    .section-three {
+        flex-direction: column;
+        padding: 3em 2em;
+    }
+
+    .section-three-left, .section-three-right {
+        width: 100%;
+    }
+
+    .card1, .card3 {
+        height: 220px;
+        border-radius: 24px 0px 0px 24px;
+        padding: 0em 0.5em;
+    }
+
+    .card2, .card4 {
+        height: 220px;
+        border-radius: 0px 24px 24px 0px;
+        padding: 0em 0.5em;
+    }
+
+    .card-p1 {
+        font-size: 2.8rem;
+    }
+
+    .card-p2 {
+        font-size: 0.9rem;
+    }
+
+    .card-circle1 {
+        width: 50px;
+        height: 50px;
+        left: 15px;
+        bottom: 5px;
+    }
+
+    .card-circle2 {
+        width: 50px;
+        height: 50px;
+        right: 15px;
+        top: 5px;
+    }
+
+    section {
+        padding: 0em 1.5em;
+    }
+
+    .testimonial-container {
+        flex-direction: column;
+    }
+
+    .testimonial-left {
+        width: 100%;
+    }
+
+    .testimonial-right {
+        width: 100%;
+        align-items: center;
+    }
+
+    .testimonial-right img {
+        width: 28px;
+    }
+
+    .img-bg {
+        width: 225px;
+        height: 300px;
+    }
+
+    .img-con {
+        width: 225px;
+        height: 300px;
+    }
+
+    .test-p1 {
+        font-size: 1rem;
+        line-height: 26px;
+        text-align: center;
+    }
+
+    .test-p2 {
+        font-size: 1rem;
+        margin-bottom: 10px;
+    }
+
+    .test-p3 {
+        font-size: 0.875rem;
+    }
+
+    .nav-circle {
+        width: 20px;
+        height: 20px;
+    }
+
+    .active2 {
+        border: 3px solid #F6C000;
+    }
+
+    hr {
+        width: 64px;
+    }
+
+    .hr2 {
+        display: block;
+        width: 50px;
+        border: 1px solid #808080;
+    }
+
+    .section-five {
+        margin: 0em 1em;
+        border-radius: 24px;
+        padding: 2.5em 1.7em;
+        gap: 1.25em;
+    }
+
+    .section-five-h4 {
+        font-size: 1.5rem;
+    }
+
+    .section-five-p {
+        font-weight: 300;
+        font-size: 0.9rem;
+    }
+
+    .shape1 {
+        width: 50px;
+        height: 50px;
+    }
+
+    .shape2 {
+        width: 50px;
+        height: 50px;
+    }
+
+    .whatsapp {
+        width: 60px;
+        right: 1em;
+    }
+
+    .whatsapp:hover {
+        width: 65px;
+    }
 }
