@@ -146,6 +146,11 @@ button:hover {
   animation: fade-in 3s ease-in-out forwards;
 }
 
+.hero-right > img {
+  width: 70%;
+  height: auto;
+}
+
 @keyframes fade-in {
   from {
     opacity: 0;

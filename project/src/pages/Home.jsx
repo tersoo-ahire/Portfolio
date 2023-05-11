@@ -45,7 +45,7 @@ function Home(){
                     <Button/>
                 </div>
                 <div className="hero-right">
-                    <img src={tersoo} alt="Image of Tersoo" style={{width:"70%", height:"auto"}}/>
+                    <img src={tersoo} alt="Image of Tersoo"/>
                 </div>
             </div>
 
