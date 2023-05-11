@@ -2,6 +2,8 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import "../styles/App.css";
+import "../styles_mobile/App.css";
+import "../styles_tablet_small/App.css";
 import phone from "../assets/phone.svg";
 import email from "../assets/email.svg";
 
@@ -72,7 +74,7 @@ function Contact(){
 
                     <div className="email-container">
                         <div className="contact-bg">
-                            <img src={email} alt="phone icon" />
+                            <img src={email} alt="email icon" />
                         </div>
                         <div>
                             <p className="contact-title">Email</p>
