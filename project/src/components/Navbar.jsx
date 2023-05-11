@@ -7,6 +7,7 @@ import bar from "../assets/bar.svg";
 import cancel from "../assets/cancel.svg";
 import "../styles/navbar.css";
 import "../styles_mobile/navbar.css";
+import "../styles_tablet_small/navbar.css";
 
 export default function Navbar() {
   const location = useLocation();
