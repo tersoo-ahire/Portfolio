@@ -1,0 +1,14 @@
+@media (max-width: 1000px) {
+    footer {
+        padding: 1.625em 1.5em;
+    }
+
+    .image {
+        width: 120px;
+    }
+
+    .freelance1 {
+        font-weight: 400;
+        font-size: 0.9rem;
+    }
+}

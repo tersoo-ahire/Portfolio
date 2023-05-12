@@ -2,6 +2,7 @@ import React from "react";
 import '../styles/footer.css';
 import '../styles_mobile/footer.css';
 import '../styles_tablet_small/footer.css';
+import '../styles_tablet_large/footer.css';
 import { Link } from "react-router-dom";
 import logo from "../assets/tersoo-logo.svg";
 import github from "../assets/github.svg";
