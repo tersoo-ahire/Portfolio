@@ -100,4 +100,102 @@
         font-size: 1.1rem;
         margin-bottom: 40px;
     }
+
+    .hero {
+        padding: 3em 1.5em 0em 1.5em;
+        margin-top: 4em;
+        gap: 1em;
+    }
+
+    .hero-right {
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .hero-right > img {
+        width: auto;
+        height: 450px;
+    }
+
+    .hero-p1 {
+        font-size: 1rem;
+    }
+
+    .hero-h1 {
+        font-size: 2.25rem;
+    }
+
+    .hero-p2 {
+        font-size: 1rem;
+        line-height: 24px;
+    }
+
+    .section-one {
+        flex-direction: column;
+        padding: 4em 1.5em;
+    }
+
+    .section-one-left {
+        width: 100%;
+        gap: 0.8em;
+        flex-direction: row;
+    }
+
+    .section-one-left-sub {
+        align-items: center;
+        justify-content: center;
+        gap: 0.8em;
+    }
+
+    .section-one-right {
+        width: 100%;
+    }
+
+    .skillcard {
+        width: 50%;
+        height: 370px;
+        padding: 2.5em 1.2em;
+    }
+
+    .skillcard:hover {
+        width: 55%;
+        height: 390px;
+    }
+
+    .skillcard:nth-child(even) {
+        margin-top: 0px;
+    }
+
+    .skillcard-icon-container {
+        width: 65px;
+        height: 65px;
+    }
+
+    .skillcard-icon-container > img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .skillcard-p1 {
+        font-size: 1rem;
+    }
+
+    .skillcard-p2 {
+        font-size: 0.9rem;
+        line-height: 20px;
+    }
+
+    .section-one-right-p1 {
+        font-size: 1rem;
+    }  
+
+    .section-one-right-h2 {
+        font-size: 1.5rem;
+        line-height: 40px;
+    }
+
+    .section-one-right-p2 {
+        font-size: 1rem;
+        line-height: 28px;
+    }
 }

@@ -110,11 +110,11 @@
         gap: 1em;
     }
 
-
     .hero-right {
         align-items: center;
         justify-content: center;
     }
+    
     .hero-right > img {
         width: auto;
         height: 350px;
