@@ -154,7 +154,7 @@
     .skillcard {
         width: 50%;
         height: 370px;
-        padding: 2.5em 1.2em;
+        padding: 2.5em 1em;
     }
 
     .skillcard:hover {
@@ -197,5 +197,105 @@
     .section-one-right-p2 {
         font-size: 1rem;
         line-height: 28px;
+    }
+
+    .section-two {
+        padding: 2em 1.5em;
+        gap: 4em;
+    }
+
+    .section2 {
+        margin-top: 10em;
+        padding: 2em 1.5em;
+        gap: 4em;
+    }
+
+    .project-container {
+        gap: 2em;
+    }
+
+    .project-p1 {
+        font-size: 1rem;
+    }
+
+    .project-h3 {
+        font-size: 1.5rem;
+        line-height: 10px;
+    }
+
+    .project-p2 {
+        font-size: 1rem;
+    }
+
+    .project-p3 {
+        font-size: 1rem;
+        align-items: center;
+        margin-bottom: 35px;
+    }
+    
+    .project-p3 > img {
+        width: 30px;
+    }
+
+    .project-right-sub1 {
+        margin-top: 4em;
+        height: 70%;
+        width: 100%;
+        border-radius: 44px;
+    }
+      
+    .project-right-sub2 {
+        margin-top: 4em;
+        height: 70%;
+        width: 100%;
+        border-radius: 44px;
+    }
+
+    #button-three {
+        width: 75px;
+    }
+
+    #button-three > a {
+        font-size: 0.9rem;
+    }
+
+    #button-three:nth-child(even){
+        width: 105px;
+    }
+
+    #button-three:nth-child(even):hover {
+        width: 120px;
+    }
+
+    .outercircle1 {
+        width: 90px;
+        height: 90px;
+        margin: 0em 0.5em;
+    }
+
+    .innercircle1 {
+        top: -10px;
+        bottom: -10px;
+        right: -10px;
+        left: -10px;
+    }
+
+    .outercircle2 {
+        width: 90px;
+        height: 90px;
+        margin: 0em 0.5em;
+        margin-left: auto;
+    }
+
+    .innercircle2 {
+        top: -10px;
+        bottom: -10px;
+        right: -10px;
+        left: -10px;
+    }
+
+    .viewall {
+        padding: 0.625em;
+        border-radius: 10px;
     }
 }
