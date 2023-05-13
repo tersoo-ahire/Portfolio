@@ -915,7 +915,7 @@ textarea {
 .whatsapp {
   width: 70px;
   position: fixed;
-  top: 24em;
+  bottom: 2em;
   right: 2em; 
   z-index: 2;
 }

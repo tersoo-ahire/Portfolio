@@ -1,18 +1,18 @@
 @media (max-width: 500px) {
     button {
-        width: 115px;
+        width: 140px;
         height: 35px;
         border-radius: 8px;
         font-size: 0.9rem;
-        padding: 0em;
+        padding: 1em;
     }
 
     .button-two {
-        width: 115px;
+        width: 150px;
         height: 35px;
         border-radius: 8px;
         font-size: 0.9rem;
-        padding: 0em;
+        padding: 1em;
     }
 
     .contact-container {
@@ -267,11 +267,11 @@
     }
 
     #button-three:nth-child(even){
-        width: 110px;
+        width: 120px;
     }
 
     #button-three:nth-child(even):hover {
-        width: 120px;
+        width: 125px;
     }
 
     .outercircle1 {
