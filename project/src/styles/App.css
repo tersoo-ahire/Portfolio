@@ -147,8 +147,8 @@ button:hover {
 }
 
 .hero-right > img {
-  width: 70%;
-  height: auto;
+  width: auto;
+  height: 500px;
 }
 
 @keyframes fade-in {
@@ -273,8 +273,9 @@ button:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 70px;
-  height: 70px;
+  width: auto;
+  height: auto;
+  padding: 1em;
   border-radius: 50%;
   background: #2D2E32;
   border: 1px solid #58D898;
@@ -912,10 +913,10 @@ textarea {
 }
 
 .whatsapp {
-  width:70px;
+  width: 70px;
   position: fixed;
   top: 24em;
-  right: 4em; 
+  right: 2em; 
   z-index: 2;
 }
 

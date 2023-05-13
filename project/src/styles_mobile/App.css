@@ -120,6 +120,11 @@
         width: 100%;
     }
 
+    .hero-right > img {
+        width: auto;
+        height: 350px;
+    }
+
     .hero-p1 {
         font-size: 1rem;
     }
