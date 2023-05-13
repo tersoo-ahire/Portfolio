@@ -352,5 +352,44 @@
         top: 5px;
     }
 
-    
+    section {
+        padding: 0em 2em;
+    }
+
+    .testimonial-right img {
+        width: 35px;
+    }
+
+    .img-bg {
+        width: 270px;
+        height: 305px;
+    }
+
+    .img-con {
+        width: 260px;
+        height: 325px;
+    }
+
+    .test-p1 {
+        font-size: 1rem;
+        line-height: 26px;
+    }
+
+    .test-p2 {
+        font-size: 1rem;
+        margin-bottom: 10px;
+    }
+
+    .test-p3 {
+        font-size: 0.875rem;
+    }
+
+    .nav-circle {
+        width: 25px;
+        height: 25px;
+    }
+
+    .active2 {
+        border: 4px solid #F6C000;
+    }
 }
