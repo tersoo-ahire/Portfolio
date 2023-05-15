@@ -22,8 +22,8 @@ export default function Project(){
                     ChunkFile is an online platform that allows individuals to upload large CSV or 
                     JSON files and split the dataset in the uploaded CSV or JSON file into multiple files.
                 </p>
-                <p className="project-p3">
-                    Technologies used: 
+                <div className="project-icons">
+                    <p className="project-p3-text">Technologies used:</p> 
                     <img src={html} alt="" />
                     <img src={css} alt="" />
                     <img src={javascript} alt="" />
@@ -34,7 +34,7 @@ export default function Project(){
                     <img src={vite} alt="" />
                     <img src={react} alt="" />
                     <img src={node} alt="" />
-                </p>
+                </div>
                 <LALMButtons/>
             </div>
             <div className="project-right">

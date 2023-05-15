@@ -22,7 +22,7 @@ export default function Navbar() {
     <nav>
       <div>
         <Link to="/">
-          <img src={logo} alt="Tersoo Logo" width="150px" />
+          <img src={logo} alt="Tersoo Logo" width="120px" />
         </Link>
       </div>
 

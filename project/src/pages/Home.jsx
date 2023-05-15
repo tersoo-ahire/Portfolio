@@ -9,6 +9,7 @@ import Button from "../components/Button";
 import Project from "../components/Project";
 import Testimonial from "../components/Testimonial";
 import tersoo from "../assets/tersoo.png";
+import whatsapp from "../assets/whatsapp2.png";
 import {SkillcardOne, SkillcardTwo} from "../components/Skillcard";
 import skilldata1 from "../data/skill1";
 import skilldata2 from "../data/skill2";
@@ -140,7 +141,7 @@ function Home(){
             </div>
 
             <a href="https://wa.link/e3eb3c" target="_blank">
-                <img src="https://img.icons8.com/bubbles/70/null/whatsapp.png" alt="Whatsapp Icon" width="70px" className="whatsapp" />
+                <img src={whatsapp} alt="Whatsapp Icon" className="whatsapp" />
             </a>
         </>
     )

@@ -1,18 +1,20 @@
 @media (max-width: 500px) {
     button {
-        width: 140px;
+        width: 130px;
         height: 35px;
         border-radius: 8px;
-        font-size: 0.9rem;
-        padding: 1em;
+        font-size: 1rem;
+        font-weight: 500;
+        padding: 1em 0em;
     }
 
     .button-two {
-        width: 150px;
+        width: 140px;
         height: 35px;
         border-radius: 8px;
-        font-size: 0.9rem;
-        padding: 1em;
+        font-size: 1rem;
+        font-weight: 500;
+        padding: 1em 0em;
     }
 
     .contact-container {
@@ -58,12 +60,12 @@
     }
 
     .contact-title {
-        font-size: 1rem;
+        font-size: 1.25rem;
         line-height: 30px;
     }
 
     .contact-detail {
-        font-size: 0.875rem;
+        font-size: 1rem;
         font-weight: 300;
     }
 
@@ -83,7 +85,6 @@
 
     textarea {
         width: 100%;
-        font-size: 0.875rem;
     }
 
     .thankyou-container {
@@ -170,7 +171,8 @@
     .skillcard:hover {
         width: 100%;
         height: 250px;
-        transform: rotate(1deg);
+        transform: rotate(0deg);
+        box-shadow: 5px 5px 20px rgba(100, 244, 171, 0.16);
     }
 
     .skillcard:nth-child(even) {
@@ -248,30 +250,43 @@
         font-size: 1rem;
     }
 
-    .project-p3 {
-        font-size: 1rem;
-        align-items: center;
-        margin-bottom: 35px;
+    .project-icons {
+        display: flex;
+    }
+
+    .project-p3-text {
+        font-size: 1.1rem;
+        font-weight: 500;
     }
 
     .project-p3 > img {
-        width: 25px;
+        width: 30px;
     }
 
     #button-three {
-        width: 80px;
+        width: 90px;
     }
 
     #button-three > a {
-        font-size: 0.9rem;
+        font-size: 1rem;
+    }
+
+    #button-three:hover > a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #button-three:hover {
+        width: 100px;
     }
 
     #button-three:nth-child(even){
-        width: 120px;
+        width: 130px;
     }
 
     #button-three:nth-child(even):hover {
-        width: 125px;
+        width: 140px;
     }
 
     .outercircle1 {
@@ -307,7 +322,7 @@
     }
 
     .viewall > a {
-        font-size: 0.9rem;
+        font-size: 1rem;
     }
 
     .section-three {
