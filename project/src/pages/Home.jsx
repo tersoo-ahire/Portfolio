@@ -13,11 +13,14 @@ import whatsapp from "../assets/whatsapp2.png";
 import {SkillcardOne, SkillcardTwo} from "../components/Skillcard";
 import skilldata1 from "../data/skill1";
 import skilldata2 from "../data/skill2";
+import projectdata from "../data/project";
 
 function Home(){
     const skillcard1 = skilldata1.map(item => {return (<SkillcardOne key = {item.id} {...item}/>)})
     const skillcard2 = skilldata2.map(item => {return (<SkillcardTwo key = {item.id} {...item}/>)})
     
+    const projects = projectdata.map(item => {return (<Project key = {item.id} {...item}/>)})
+
     // For transitioning skillcards
     useEffect(() => {
         const sectionOne = document.querySelector('.section-one');
@@ -79,15 +82,7 @@ function Home(){
             </div>
 
             <div className="section-two">
-                <Project/>
-                <div className="outercircle1">
-                    <div className="innercircle1"></div>
-                </div>
-                <Project/>
-                <div className="outercircle2">
-                    <div className="innercircle2"></div>
-                </div>
-                <Project/>
+                {projects}
                 <button className="viewall">
                     <Link to="/portfolio">View All</Link>
                 </button>

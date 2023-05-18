@@ -367,6 +367,10 @@ button:hover {
   height: auto;
 }
 
+.project-container:nth-child(even){
+  flex-direction: row-reverse;
+}
+
 .project-left {
   display: flex;
   flex-direction: column;
@@ -488,7 +492,6 @@ button:hover {
   background: #2D2E32;
 }
 
-
 .innercircle1 {
   background-image: linear-gradient(180deg, #58D898 23%, rgba(88, 216, 152, 0.1) 100%);
   content: '';
@@ -501,6 +504,13 @@ button:hover {
   border-radius: inherit;
 }
 
+.outercircle1:nth-child(even){
+  display: none;
+}
+
+.innercircle1:nth-child(even){
+  display: none;
+}
 
 .outercircle2 {
   position: relative;
@@ -523,6 +533,21 @@ button:hover {
   border-radius: inherit;
 }
 
+.outercircle2:nth-child(even){
+  display: none;
+}
+
+.innercircle2:nth-child(even){
+  display: none;
+}
+
+.display1 {
+  display: block;
+}
+
+.display2 {
+  display: none;
+}
 
 .section-three {
   display: flex;

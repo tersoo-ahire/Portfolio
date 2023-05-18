@@ -1,20 +1,14 @@
 import React from "react";
 import "../styles/App.css";
 import Project from "../components/Project";
-
+import projectdata from "../data/project";
 
 function Portfolio(){
+    const projects = projectdata.map(item => {return (<Project key = {item.id} {...item}/>)})
+
     return (
         <div className="section2">
-            <Project/>
-            <div className="outercircle1">
-                <div className="innercircle1"></div>
-            </div>
-            <Project/>
-            <div className="outercircle2">
-                <div className="innercircle2"></div>
-            </div>
-            <Project/>
+            {projects}
         </div>
     )
 }
