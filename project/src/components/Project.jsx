@@ -1,17 +1,15 @@
 import React from "react";
-import LALMButtons from "../components/LiveApp-LearnMore";
-import html from "../assets/html.svg";
-import css from "../assets/css.svg";
-import javascript from "../assets/javascript.svg";
-import git from "../assets/git.svg";
-import django from "../assets/django.svg";
-import python from "../assets/python.svg";
-import pythonanywhere from "../assets/pythonanywhere.svg";
-import vite from "../assets/vite.svg";
-import react from "../assets/react.svg";
-import node from "../assets/nodejs.svg";
+import LALMButtons from "./LiveApp-LearnMore";
+import Image from "./Image";
+
 
 export default function Project(props){
+    const projectImages = props.technology.map((image, index) => (
+        <Image key={index} technology={image} />
+    ));
+   
+    console.log(props.technology)
+
     return (
         <>
             <div className="project-container">
@@ -21,16 +19,7 @@ export default function Project(props){
                     <p className="project-p2">{props.project_description}</p>
                     <div className="project-icons">
                         <p className="project-p3-text">Technologies used:</p> 
-                        <img src={props.technologies} alt="" />
-                        {/* <img src={css} alt="" />
-                        <img src={javascript} alt="" />
-                        <img src={git} alt="" />
-                        <img src={django} alt="" />
-                        <img src={python} alt="" />
-                        <img src={pythonanywhere} alt="" />
-                        <img src={vite} alt="" />
-                        <img src={react} alt="" />
-                        <img src={node} alt="" /> */}
+                        {projectImages}
                     </div>
                     <LALMButtons/>
                 </div>
