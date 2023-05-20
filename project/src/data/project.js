@@ -3,30 +3,35 @@ export default [
         id: 1,
         project_name: "Chunkfile",
         project_description: 
-        `ChunkFile is an online platform that allows individuals to upload large CSV or JSON files and 
-        split the dataset in the uploaded CSV or JSON file into multiple files.`,
-        technology: ["./html.svg"],
+        `ChunkFile is a service that allows individuals to upload large CSV or JSON files and split the dataset into multiple files.
+        \n The platform utilizes Python and Django for the backend authentication, ensuring secure access for users. SQLite is used as the database, allowing efficient storage and retrieval of data.`,
+        technology: ["./html.svg", "./css.svg", "./javascript.svg", "./python.svg", "./django.svg", "./git.svg", "./figma.svg"],
         display1: "display1",
         display2: "display2",
+        live_link: "https://github.com/zuri-training/Chunk-File-Generator-Team-50",
+        figma_link: "",
     },
     {
         id: 2,
-        project_name: "Chunkfile2",
+        project_name: "Africa Students Association in Russia Website",
         project_description: 
-        `ChunkFile is an online platform that allows individuals to upload large CSV or JSON files and 
-        split the dataset in the uploaded CSV or JSON file into multiple files.`,
-        technology: ["./html.svg","./css.svg"],
+        `Corporate website built using Bootstrap for the African Students Association in Russia. This site is fully responsive across all screens.`,
+        technology: ["./html.svg", "./css.svg", "./javascript.svg", "./bootstrap.svg", "./git.svg", "./figma.svg"],
         display1: "display2",
         display2: "display1",
+        live_link: "https://www.asadag.com",
+        figma_link: "",
     },
     {
         id: 3,
-        project_name: "Chunkfile3",
+        project_name: "Portfolio Site",
         project_description: 
-        `ChunkFile is an online platform that allows individuals to upload large CSV or JSON files and 
-        split the dataset in the uploaded CSV or JSON file into multiple files.`,
-        technology: ["./html.svg","./css.svg","./javascript.svg"],
+        `My portfolio site is a showcase of my work and skills as a web developer and designer. It features a collection of projects that highlight my expertise in various technologies and design tools. 
+        \n The site itself is built using with the React library for dynamic interactivity. In the contact form, I integrated Axios for handling API requests and EmailJS for for streamlined message delivery.`,
+        technology: ["./react.svg", "./html.svg","./css.svg","./javascript.svg","./vite.svg","./git.svg", "./figma.svg"],
         display1: "display2",
         display2: "display2",
+        live_link: "http://127.0.0.1:5173/",
+        figma_link: "",
     },
 ]

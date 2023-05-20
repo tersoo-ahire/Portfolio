@@ -7,8 +7,6 @@ export default function Project(props){
     const projectImages = props.technology.map((image, index) => (
         <Image key={index} technology={image} />
     ));
-   
-    console.log(props.technology)
 
     return (
         <>
@@ -16,12 +14,15 @@ export default function Project(props){
                 <div className="project-left">
                     <p className="project-p1">— Project {props.id}</p>
                     <h3 className="project-h3">{props.project_name}</h3>
-                    <p className="project-p2">{props.project_description}</p>
+                    <p style={{ whiteSpace: 'pre-line' }} className="project-p2">{props.project_description}</p>
                     <div className="project-icons">
                         <p className="project-p3-text">Technologies used:</p> 
                         {projectImages}
                     </div>
-                    <LALMButtons/>
+                    <LALMButtons
+                        live_link={props.live_link}
+                        figma_link={props.figma_link}
+                    />
                 </div>
                 <div className="project-right">
                     <div className="project-right-sub1"></div>
