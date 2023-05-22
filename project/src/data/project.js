@@ -1,7 +1,7 @@
 export default [
     {
         id: 1,
-        project_name: "Chunkfile",
+        project_name: "ChunkFile",
         project_description: 
         `ChunkFile is a service that allows individuals to upload large CSV or JSON files and split the dataset into multiple files.
         \n The platform utilizes Python and Django for the backend authentication, ensuring secure access for users. SQLite is used as the database, allowing efficient storage and retrieval of data.`,

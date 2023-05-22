@@ -94,7 +94,7 @@ function Home(){
 
                 <div className="section-three-left">
                     <div className="card1">
-                        <div className="card-p1">5</div>
+                        <div className="card-p1">2</div>
                         <div className="card-p2">Happy clients</div>
                     </div>
                     <div className="card2">

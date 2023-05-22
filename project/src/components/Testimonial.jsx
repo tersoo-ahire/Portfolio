@@ -7,28 +7,30 @@ export default function Testimonial() {
     const testimonials = [
         {
             id: 1,
-            image: "/lady.png",
+            image: "/arumun.png",
             text:
-            "The technological revolution is changing aspect of our lives, and the fabric of society itself. it's also changing the way we learn and what we learn. Factual knowledge is less prized when everything you ever need to know can be found on your phone.",
-            author: "Yasmine Nurudeen",
-            company: "CEO of Dunya Ventures",
+            `Working with Tersoo was an exceptional experience. Despite the tight deadline, 
+            he was able to deliver a visually stunning and fully functional website. 
+            I am thrilled with the outcome and highly recommend him for his talent and dedication.`,
+            author: "Arumun Mee",
+            company: "President of Africa Students Association in Russia ",
         },
         {
             id: 2,
             image: "/lady.png",
             text:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nunc sapien, vehicula non eleifend non, interdum at lectus. Fusce quis blandit dolor. Nam vel risus purus.",
-            author: "John Doe",
+            author: "Jane Smith",
             company: "CTO of XYZ Corp",
         },
-        {
-            id: 3,
-            image: "/lady.png",
-            text:
-            "Sed auctor imperdiet augue, at convallis magna. Duis pharetra, tortor vel malesuada tincidunt, quam mi vulputate ex, et scelerisque diam diam non nulla.",
-            author: "Jane Smith",
-            company: "Marketing Director at ABC Inc",
-        },
+        // {
+        //     id: 3,
+        //     image: "/lady.png",
+        //     text:
+        //     "Sed auctor imperdiet augue, at convallis magna. Duis pharetra, tortor vel malesuada tincidunt, quam mi vulputate ex, et scelerisque diam diam non nulla.",
+        //     author: "Jane Smith",
+        //     company: "Marketing Director at ABC Inc",
+        // },
         ];
 
     useEffect(() => {
