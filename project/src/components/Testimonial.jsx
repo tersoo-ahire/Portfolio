@@ -10,7 +10,7 @@ export default function Testimonial() {
             image: "/arumun.png",
             text:
             `Working with Tersoo was an exceptional experience. Despite the tight deadline, 
-            he was able to deliver a visually stunning and fully functional website. 
+            he was able to deliver a visually stunning and fully functional website in time for our annual conference. 
             I am thrilled with the outcome and highly recommend him for his talent and dedication.`,
             author: "Arumun Mee",
             icon: "./IG.svg",

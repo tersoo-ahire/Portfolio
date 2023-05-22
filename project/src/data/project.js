@@ -29,7 +29,7 @@ export default [
         project_name: "Portfolio Site",
         project_description: 
         `My portfolio site is a showcase of my work and skills as a web developer and designer. It features a collection of projects that highlight my expertise in various technologies and design tools. 
-        \n The site itself is built using with the React library for dynamic interactivity. In the contact form, I integrated Axios for handling API requests and EmailJS for streamlined message delivery.`,
+        \n The site itself is built using the React library for dynamic interactivity. In the contact form, I integrated Axios for handling API requests and EmailJS for streamlined message delivery.`,
         technology: ["./react.svg", "./html.svg","./css.svg","./javascript.svg","./vite.svg","./git.svg", "./figma.svg"],
         display1: "display2",
         display2: "display2",

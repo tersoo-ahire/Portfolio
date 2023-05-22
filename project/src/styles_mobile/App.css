@@ -169,10 +169,11 @@
     }
 
     .skillcard:hover {
-        width: 100%;
-        height: 250px;
+        width: 90%;
+        height: auto;
         transform: rotate(0deg);
-        box-shadow: 5px 5px 20px rgba(100, 244, 171, 0.16);
+        background: #25262A;
+        box-shadow: none;
     }
 
     .skillcard:nth-child(even) {
@@ -187,6 +188,23 @@
     .skillcard-icon-container > img {
         width: 25px;
         height: 25px;
+    }
+
+    .skillcard img.hover-image {
+        display: none;
+    }
+    
+    .skillcard:hover img:not(.hover-image) {
+        display: block;
+    }
+
+    .skillcard:hover img.hover-image {
+        display: none;
+    }
+
+    .skillcard:hover > .skillcard-icon-container {
+        background: #2D2E32;
+        border: 1px solid #58D898;
     }
 
     .skillcard-p1 {

@@ -41,7 +41,7 @@ function Home(){
         <>
             <div className="hero">
                 <div className="hero-left">
-                    <p className="hero-p1">— Introducing</p>
+                    <p className="hero-p1">— About me</p>
                     <h1 className="hero-h1">Hello I’m Tersoo Ahire</h1>
                     <p className="hero-p2">
                         A web developer with a keen eye for detail and a passion for creating intuitive, user-friendly designs and web applications. 
