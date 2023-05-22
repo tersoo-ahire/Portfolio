@@ -44,8 +44,7 @@ function Home(){
                     <p className="hero-p1">— Introducing</p>
                     <h1 className="hero-h1">Hello I’m Tersoo Ahire</h1>
                     <p className="hero-p2">
-                        I am a talented web developer and UI designer with a strong portfolio of successful projects. 
-                        I have a keen eye for detail and a passion for creating intuitive, user-friendly designs. 
+                        A Web Developer and UI Designer with a  a keen eye for detail and a passion for creating intuitive, user-friendly designs and web applications. 
                         Hire me for your next web project and watch your vision come to life.
                     </p>
                     <Button/>
@@ -69,10 +68,10 @@ function Home(){
                     <p className="section-one-right-p1">— My Skills</p>
                     <h1 className="section-one-right-h2">Why Hire Me For Your Next Project?</h1>
                     <p className="section-one-right-p2">
-                        I am an experienced web developer and designer with a proven track record of delivering successful web projects 
-                        for a range of clients. With strong problem-solving skills and attention to detail, I am able to take a project 
-                        from concept to completion, ensuring that the end result meets the client's needs and expectations. I am a strong 
-                        communicator and work effectively as part of a team or individually to complete projects on time and to the highest standard. 
+                        With strong problem-solving skills and an attention to detail, I am able to take a project 
+                        from concept to completion, ensuring that the end result meets your needs and expectations. 
+                        <br /><br />
+                        I am a strong communicator and able to work effectively as part of a team or individually to complete projects on time and to the highest standard. 
                         My skills, experience, and dedication to delivering high-quality work make me an ideal candidate for your next project.
                     </p>
                     <a href="https://docs.google.com/document/d/1d70hhmP38scN1eyA8mEXu8ZOGEkOeVp7zc6Z7q5U2QQ/edit#" target="_blank">
@@ -95,7 +94,7 @@ function Home(){
 
                 <div className="section-three-left">
                     <div className="card1">
-                        <div className="card-p1">10</div>
+                        <div className="card-p1">5</div>
                         <div className="card-p2">Happy clients</div>
                     </div>
                     <div className="card2">
@@ -106,11 +105,11 @@ function Home(){
 
                 <div className="section-three-right">
                     <div className="card3">
-                        <div className="card-p1">7</div>
+                        <div className="card-p1">2</div>
                         <div className="card-p2">Award Winnings</div>
                     </div>
                     <div className="card4">
-                        <div className="card-p1">3</div>
+                        <div className="card-p1">2</div>
                         <div className="card-p2">Years Experience</div>
                     </div>
                 </div>

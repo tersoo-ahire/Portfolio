@@ -80,7 +80,7 @@ button:hover {
 #button-three:hover {
   padding: 5px;
   width: 98px;
-  height: auto;
+  height: 40px;
   transition: background-color 2s ease-out;
 }
 
