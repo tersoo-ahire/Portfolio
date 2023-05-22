@@ -30,7 +30,7 @@ export default function Project(props){
                 </div>
             </div>
             
-            <div>
+            <div className="circles-container">
                 <div className={props.display1}>
                     <div className="outercircle1">
                         <div className="innercircle1"></div>
