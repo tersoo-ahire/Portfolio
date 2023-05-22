@@ -224,17 +224,15 @@
 
     .project-container {
         flex-direction: column;
+        padding: 2em 1em;
     }
 
     .project-left {
         width: 100%;
-        margin-top: -50px;
     }
 
     .project-right {
-        width: 90%;
-        margin: 0 auto;
-        height: 250px;
+        width: 100%;
     }
 
     .project-p1 {

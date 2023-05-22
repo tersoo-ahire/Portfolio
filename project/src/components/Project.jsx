@@ -26,7 +26,7 @@ export default function Project(props){
                 </div>
                 <div className="project-right">
                     <div className="project-right-sub1"></div>
-                    <div className="project-right-sub2"></div>
+                    <img src={props.project_image} className="project-right-sub2" alt="project hero banner" />
                 </div>
             </div>
             

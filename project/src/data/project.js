@@ -10,6 +10,7 @@ export default [
         display2: "display2",
         live_link: "https://github.com/zuri-training/Chunk-File-Generator-Team-50",
         figma_link: "https://www.figma.com/file/sm2Io642yiuO5fjg2cmXhT/ChunkFile?type=design&node-id=2305%3A11431&t=SIfzxLrAZD01uoS3-1",
+        project_image: "./chunkfile_hero.png",
     },
     {
         id: 2,
@@ -21,6 +22,7 @@ export default [
         display2: "display1",
         live_link: "https://www.asadag.com",
         figma_link: "https://www.figma.com/file/zJRW79owSAlznMtUg4IogV/My-Projects?type=design&node-id=526-1318",
+        project_image: "./asadag_hero.png",
     },
     {
         id: 3,
@@ -33,5 +35,6 @@ export default [
         display2: "display2",
         live_link: "/",
         figma_link: "https://www.figma.com/file/zJRW79owSAlznMtUg4IogV/My-Projects?type=design&node-id=355%3A355&t=544sPtexefvBX6nC-1",
+        project_image: "./portfolio_hero.png",
     },
 ]
