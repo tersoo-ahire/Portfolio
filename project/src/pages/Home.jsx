@@ -44,7 +44,7 @@ function Home(){
                     <p className="hero-p1">— Introducing</p>
                     <h1 className="hero-h1">Hello I’m Tersoo Ahire</h1>
                     <p className="hero-p2">
-                        A Web Developer and UI Designer with a  a keen eye for detail and a passion for creating intuitive, user-friendly designs and web applications. 
+                        A web developer with a keen eye for detail and a passion for creating intuitive, user-friendly designs and web applications. 
                         Hire me for your next web project and watch your vision come to life.
                     </p>
                     <Button/>
@@ -65,14 +65,13 @@ function Home(){
                     </div>
                 </div>
                 <div className="section-one-right">
-                    <p className="section-one-right-p1">— My Skills</p>
                     <h1 className="section-one-right-h2">Why Hire Me For Your Next Project?</h1>
                     <p className="section-one-right-p2">
                         With strong problem-solving skills and an attention to detail, I am able to take a project 
                         from concept to completion, ensuring that the end result meets your needs and expectations. 
                         <br /><br />
                         I am a strong communicator and able to work effectively as part of a team or individually to complete projects on time and to the highest standard. 
-                        My skills, experience, and dedication to delivering high-quality work make me an ideal candidate for your next project.
+                        My skills, experience, and dedication to delivering high-quality work makes me an ideal candidate for your next project.
                     </p>
                     <a href="https://docs.google.com/document/d/1d70hhmP38scN1eyA8mEXu8ZOGEkOeVp7zc6Z7q5U2QQ/edit#" target="_blank">
                         <button className="button-two">Download CV</button>
@@ -80,7 +79,68 @@ function Home(){
                 </div>
             </div>
 
-            
+            <div className="technologies-container">
+                <p className="section-one-right-p1">— My Skills</p>
+                <div className="technologies-container-sub">
+                    <div className="tool-bg">
+                        <img src="./react.svg" alt="React Icon" />
+                        <b>REACT</b>
+                    </div>
+                    <div className="tool-bg">
+                        <img src="./html.svg" alt="Html Icon" />
+                        <b>HTML</b>
+                    </div>
+                    <div className="tool-bg">
+                        <img src="./css.svg" alt="CSS Icon" />
+                        <b>CSS</b>
+                    </div>
+                </div>
+
+                <div className="technologies-container-sub">
+                    <div className="tool-bg">
+                        <img src="./javascript.svg" alt="Javascript Icon" />
+                        <b>JAVASCRIPT</b>
+                    </div>
+                    <div className="tool-bg">
+                        <img src="./python.svg" alt="Python Icon" />
+                        <b>PYTHON</b>
+                    </div>
+                    <div className="tool-bg">
+                        <img src="./django.svg" alt="Django Icon" />
+                        <b>DJANGO</b>
+                    </div>
+                </div>
+
+                <div className="technologies-container-sub">
+                    <div className="tool-bg">
+                        <img src="./bootstrap.svg" alt="Bootstrap Icon" />
+                        <b>BOOTSTRAP</b>
+                    </div>
+                    <div className="tool-bg">
+                        <img src="./git.svg" alt="Git Icon" />
+                        <b>GIT</b>
+                    </div>
+                    <div className="tool-bg">
+                        <img src="./figma.svg" alt="Figma Icon" />
+                        <b>FIGMA</b>
+                    </div>
+                </div>
+
+                <div className="technologies-container-sub">
+                    <div className="tool-bg">
+                        <img src="./photoshop2.svg" alt="Photoshop Icon" />
+                        <b>PHOTOSHOP</b>
+                    </div>
+                    <div className="tool-bg">
+                        <img src="./wordpress.svg" alt="Wordpress Icon" />
+                        <b>WORDPRESS</b>
+                    </div>
+                    <div className="tool-bg">
+                        <img src="./vscode.svg" alt="VS Code Icon" />
+                        <b>VS CODE</b>
+                    </div>
+                </div>
+            </div>
 
             <div className="section-two">
                 {projects}

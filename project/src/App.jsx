@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
 import Thankyou from './pages/Thankyou';
+import NotFound from './pages/NotFound';
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
           <Route path="/portfolio" element={<Portfolio/>} />
           <Route path="/contact" element={<Contact/>} />
           <Route path="/thankyou" element={<Thankyou/>} />
+          <Route path="*" element={<NotFound/>}/>
         </Routes>
       <Footer/>
     </>
