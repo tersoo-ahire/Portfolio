@@ -13,24 +13,22 @@ export default function Testimonial() {
             he was able to deliver a visually stunning and fully functional website. 
             I am thrilled with the outcome and highly recommend him for his talent and dedication.`,
             author: "Arumun Mee",
+            icon: "./IG.svg",
+            icon_link: "https://www.instagram.com/meearumun/",
             company: "President of Africa Students Association in Russia ",
         },
         {
             id: 2,
-            image: "/lady.png",
+            image: "/carnage.png",
             text:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nunc sapien, vehicula non eleifend non, interdum at lectus. Fusce quis blandit dolor. Nam vel risus purus.",
-            author: "Jane Smith",
-            company: "CTO of XYZ Corp",
+            `It was an absolute pleasure collaborating with Tersoo as a colleague and team lead on the ChunkFile project. 
+            His leadership skills and technical expertise, ensured the smooth execution and timely delivery of the project. 
+            I highly recommend Tersoo as a valuable asset to any team`,
+            author: "Ezekiel Okebule",
+            icon: "./LnkdIn.svg",
+            icon_link: "https://www.linkedin.com/in/ezekiel-okebule/",
+            company: "Zuri Team 50",
         },
-        // {
-        //     id: 3,
-        //     image: "/lady.png",
-        //     text:
-        //     "Sed auctor imperdiet augue, at convallis magna. Duis pharetra, tortor vel malesuada tincidunt, quam mi vulputate ex, et scelerisque diam diam non nulla.",
-        //     author: "Jane Smith",
-        //     company: "Marketing Director at ABC Inc",
-        // },
         ];
 
     useEffect(() => {
@@ -59,7 +57,12 @@ export default function Testimonial() {
                         {testimonials[currentSlide].text}
                     </p>
                     <hr className="hr2"/>
-                    <p className="test-p2">{testimonials[currentSlide].author}</p>
+                    <div>
+                        <a className="test-p2-container" href={testimonials[currentSlide].icon_link} target="_blank">
+                            <img className="test-p2"src={testimonials[currentSlide].icon}  alt="Social Icon"/>
+                            <p className="test-p2">{testimonials[currentSlide].author}</p>
+                        </a>
+                    </div>
                     <p className="test-p3">{testimonials[currentSlide].company}</p>
                 </div>
             </div>

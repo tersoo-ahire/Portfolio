@@ -80,6 +80,8 @@ function Home(){
                 </div>
             </div>
 
+            
+
             <div className="section-two">
                 {projects}
                 <button className="viewall">

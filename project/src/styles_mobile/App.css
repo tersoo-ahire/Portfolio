@@ -405,11 +405,20 @@
 
     .test-p2 {
         font-size: 1rem;
-        margin-bottom: 10px;
+    }
+
+    .test-p2-container {
+        display: flex;
+        gap: 0.5em;
+    }
+      
+    .test-p2-container > img {
+        width: 25px;
     }
 
     .test-p3 {
         font-size: 0.875rem;
+        text-align: center;
     }
 
     .nav-circle {

@@ -987,7 +987,6 @@ section {
 .img-bg {
   width: 275px;
   height: 360px;
-  border-radius: 55px;
 }
 
 .img-con {
@@ -997,14 +996,13 @@ section {
   width: 285px;
   height: 360px;
   background: inherit;
-  border-radius: 55px;
   position: absolute;
   z-index: 2;
 }
 
 .img-con > img {
   width: 100%;
-  border-radius: 55px;
+  border-radius: 30px;
   box-shadow: 0px 11px 10px rgba(35, 35, 35, 0.505);
 }
 
@@ -1030,14 +1028,22 @@ section {
   color: #58D898;
 }
 
+.test-p2-container {
+  display: flex;
+  gap: 0.5em;
+  align-items: center;
+}
+
+.test-p2-container > img {
+  width: 30px;
+}
+
 .test-p3 {
   font-weight: 300;
   font-size: 1em;
   text-align: left;
-  line-height: 0px;
   color: #FFFFFF;
-  display: flex;
-  flex-wrap: wrap;
+  margin: 0;
 }
 
 .test-nav {
