@@ -1,7 +1,6 @@
 import React from "react";
 import { useEffect } from 'react';
 import { Link } from "react-router-dom";
-import ReactGA from 'react-ga';
 import "../styles/App.css";
 import "../styles_mobile/App.css";
 import "../styles_tablet_small/App.css";
@@ -36,8 +35,6 @@ function Home(){
         });
       
         observer.observe(sectionOne);
-
-        ReactGA.pageview(window.location.pathname);
     }, []);
     
     return (
