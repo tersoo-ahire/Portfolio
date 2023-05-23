@@ -73,7 +73,7 @@ function Home(){
                         I am a strong communicator and able to work effectively as part of a team or individually to complete projects on time and to the highest standard. 
                         My skills, experience, and dedication to delivering high-quality work makes me an ideal candidate for your next project.
                     </p>
-                    <a href="https://docs.google.com/document/d/1d70hhmP38scN1eyA8mEXu8ZOGEkOeVp7zc6Z7q5U2QQ/edit#" target="_blank">
+                    <a href="https://drive.google.com/file/d/1jYB_CscaFw-kDKBr4Nq4I_esCTsM13MR/view?usp=sharing" target="_blank">
                         <button className="button-two">Download CV</button>
                     </a>
                 </div>
