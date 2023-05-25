@@ -8,7 +8,7 @@ export default [
         technology: ["./html.svg", "./css.svg", "./javascript.svg", "./python.svg", "./django.svg", "./git.svg", "./figma.svg"],
         display1: "display1",
         display2: "display2",
-        live_link: "https://github.com/zuri-training/Chunk-File-Generator-Team-50",
+        live_link: "https://chunkfile.pythonanywhere.com/",
         figma_link: "https://www.figma.com/file/sm2Io642yiuO5fjg2cmXhT/ChunkFile?type=design&node-id=2305%3A11431&t=SIfzxLrAZD01uoS3-1",
         project_image: "./chunkfile_hero.png",
     },
