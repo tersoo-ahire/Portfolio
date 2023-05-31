@@ -140,6 +140,17 @@ function Home(){
                         <b>VS CODE</b>
                     </div>
                 </div>
+
+                <div className="technologies-container-sub">
+                    <div className="tool-bg">
+                        <img src="./typescript.svg" alt="TypeScript Icon" />
+                        <b>TYPESCRIPT</b>
+                    </div>
+                    <div className="tool-bg">
+                        <img src="./scss.svg" alt="SCSS Icon" />
+                        <b>SCSS</b>
+                    </div>
+                </div>
             </div>
 
             <div className="section-two">
