@@ -150,6 +150,10 @@ function Home(){
                         <img src="./scss.svg" alt="SCSS Icon" />
                         <b>SCSS</b>
                     </div>
+                    <div className="tool-bg">
+                        <img src="./vite.svg" alt="Vite Icon" />
+                        <b>Vite</b>
+                    </div>
                 </div>
             </div>
 
