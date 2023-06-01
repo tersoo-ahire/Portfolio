@@ -83,10 +83,6 @@ function Home(){
                 <p className="section-one-right-p1">— My Skills</p>
                 <div className="technologies-container-sub">
                     <div className="tool-bg">
-                        <img src="./react.svg" alt="React Icon" />
-                        <b>REACT</b>
-                    </div>
-                    <div className="tool-bg">
                         <img src="./html.svg" alt="Html Icon" />
                         <b>HTML</b>
                     </div>
@@ -94,13 +90,28 @@ function Home(){
                         <img src="./css.svg" alt="CSS Icon" />
                         <b>CSS</b>
                     </div>
-                </div>
-
-                <div className="technologies-container-sub">
                     <div className="tool-bg">
                         <img src="./javascript.svg" alt="Javascript Icon" />
                         <b>JAVASCRIPT</b>
                     </div>
+                </div>
+
+                <div className="technologies-container-sub">
+                    <div className="tool-bg">
+                        <img src="./react.svg" alt="React Icon" />
+                        <b>REACT</b>
+                    </div>
+                    <div className="tool-bg">
+                        <img src="./nodejs.svg" alt="Node Icon" />
+                        <b>NODEJS</b>
+                    </div>
+                    <div className="tool-bg">
+                        <img src="./typescript.svg" alt="TypeScript Icon" />
+                        <b>TYPESCRIPT</b>
+                    </div>
+                </div>
+
+                <div className="technologies-container-sub">
                     <div className="tool-bg">
                         <img src="./python.svg" alt="Python Icon" />
                         <b>PYTHON</b>
@@ -108,6 +119,10 @@ function Home(){
                     <div className="tool-bg">
                         <img src="./django.svg" alt="Django Icon" />
                         <b>DJANGO</b>
+                    </div>
+                    <div className="tool-bg">
+                        <img src="./scss.svg" alt="SCSS Icon" />
+                        <b>SCSS</b>
                     </div>
                 </div>
 
@@ -117,42 +132,27 @@ function Home(){
                         <b>BOOTSTRAP</b>
                     </div>
                     <div className="tool-bg">
-                        <img src="./git.svg" alt="Git Icon" />
-                        <b>GIT</b>
-                    </div>
-                    <div className="tool-bg">
                         <img src="./figma.svg" alt="Figma Icon" />
                         <b>FIGMA</b>
+                    </div>
+                    <div className="tool-bg">
+                        <img src="./photoshop2.svg" alt="Photoshop Icon" />
+                        <b>PHOTOSHOP</b>
                     </div>
                 </div>
 
                 <div className="technologies-container-sub">
                     <div className="tool-bg">
-                        <img src="./photoshop2.svg" alt="Photoshop Icon" />
-                        <b>PHOTOSHOP</b>
-                    </div>
-                    <div className="tool-bg">
-                        <img src="./wordpress.svg" alt="Wordpress Icon" />
-                        <b>WORDPRESS</b>
+                        <img src="./git.svg" alt="Git Icon" />
+                        <b>GIT</b>
                     </div>
                     <div className="tool-bg">
                         <img src="./vscode.svg" alt="VS Code Icon" />
                         <b>VS CODE</b>
                     </div>
-                </div>
-
-                <div className="technologies-container-sub">
                     <div className="tool-bg">
-                        <img src="./typescript.svg" alt="TypeScript Icon" />
-                        <b>TYPESCRIPT</b>
-                    </div>
-                    <div className="tool-bg">
-                        <img src="./scss.svg" alt="SCSS Icon" />
-                        <b>SCSS</b>
-                    </div>
-                    <div className="tool-bg">
-                        <img src="./vite.svg" alt="Vite Icon" />
-                        <b>Vite</b>
+                        <img src="./wordpress.svg" alt="Wordpress Icon" />
+                        <b>WORDPRESS</b>
                     </div>
                 </div>
             </div>
