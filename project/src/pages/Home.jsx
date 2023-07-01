@@ -14,6 +14,23 @@ import {SkillcardOne, SkillcardTwo} from "../components/Skillcard";
 import skilldata1 from "../data/skill1";
 import skilldata2 from "../data/skill2";
 import projectdata from "../data/project";
+import html from "../assets/html.svg";
+import css from "../assets/css.svg";
+import javascript from "../assets/javascript.svg";
+import python from "../assets/python.svg";
+import django from "../assets/django.svg";
+import git from "../assets/git.svg";
+import figma from "../assets/figma.svg";
+import bootstrap from "../assets/bootstrap.svg";
+import react from "../assets/react.svg";
+import nodejs from "../assets/nodejs.svg";
+import typescript from "../assets/typescript.svg";
+import scss from "../assets/scss.svg";
+import photoshop from "../assets/photoshop2.svg";
+import wordpress from "../assets/wordpress.svg";
+import vscode from "../assets/vscode.svg";
+
+
 
 function Home(){
     const skillcard1 = skilldata1.map(item => {return (<SkillcardOne key = {item.id} {...item}/>)})
@@ -83,75 +100,75 @@ function Home(){
                 <p className="section-one-right-p1">— My Skills</p>
                 <div className="technologies-container-sub">
                     <div className="tool-bg">
-                        <img src="./html.svg" alt="Html Icon" />
+                        <img src={html} alt="Html Icon" />
                         <b>HTML</b>
                     </div>
                     <div className="tool-bg">
-                        <img src="./css.svg" alt="CSS Icon" />
+                        <img src={css} alt="CSS Icon" />
                         <b>CSS</b>
                     </div>
                     <div className="tool-bg">
-                        <img src="./javascript.svg" alt="Javascript Icon" />
+                        <img src={javascript} alt="Javascript Icon" />
                         <b>JAVASCRIPT</b>
                     </div>
                 </div>
 
                 <div className="technologies-container-sub">
                     <div className="tool-bg">
-                        <img src="./react.svg" alt="React Icon" />
+                        <img src={react} alt="React Icon" />
                         <b>REACT</b>
                     </div>
                     <div className="tool-bg">
-                        <img src="./nodejs.svg" alt="Node Icon" />
+                        <img src={nodejs} alt="Node Icon" />
                         <b>NODEJS</b>
                     </div>
                     <div className="tool-bg">
-                        <img src="./typescript.svg" alt="TypeScript Icon" />
+                        <img src={typescript} alt="TypeScript Icon" />
                         <b>TYPESCRIPT</b>
                     </div>
                 </div>
 
                 <div className="technologies-container-sub">
                     <div className="tool-bg">
-                        <img src="./python.svg" alt="Python Icon" />
+                        <img src={python} alt="Python Icon" />
                         <b>PYTHON</b>
                     </div>
                     <div className="tool-bg">
-                        <img src="./django.svg" alt="Django Icon" />
+                        <img src={django} alt="Django Icon" />
                         <b>DJANGO</b>
                     </div>
                     <div className="tool-bg">
-                        <img src="./scss.svg" alt="SCSS Icon" />
+                        <img src={scss} alt="SCSS Icon" />
                         <b>SCSS</b>
                     </div>
                 </div>
 
                 <div className="technologies-container-sub">
                     <div className="tool-bg">
-                        <img src="./bootstrap.svg" alt="Bootstrap Icon" />
+                        <img src={bootstrap} alt="Bootstrap Icon" />
                         <b>BOOTSTRAP</b>
                     </div>
                     <div className="tool-bg">
-                        <img src="./figma.svg" alt="Figma Icon" />
+                        <img src={figma} alt="Figma Icon" />
                         <b>FIGMA</b>
                     </div>
                     <div className="tool-bg">
-                        <img src="./photoshop2.svg" alt="Photoshop Icon" />
+                        <img src={photoshop} alt="Photoshop Icon" />
                         <b>PHOTOSHOP</b>
                     </div>
                 </div>
 
                 <div className="technologies-container-sub">
                     <div className="tool-bg">
-                        <img src="./git.svg" alt="Git Icon" />
+                        <img src={git} alt="Git Icon" />
                         <b>GIT</b>
                     </div>
                     <div className="tool-bg">
-                        <img src="./vscode.svg" alt="VS Code Icon" />
+                        <img src={vscode} alt="VS Code Icon" />
                         <b>VS CODE</b>
                     </div>
                     <div className="tool-bg">
-                        <img src="./wordpress.svg" alt="Wordpress Icon" />
+                        <img src={wordpress} alt="Wordpress Icon" />
                         <b>WORDPRESS</b>
                     </div>
                 </div>

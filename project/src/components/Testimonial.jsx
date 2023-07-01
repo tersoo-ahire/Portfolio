@@ -1,31 +1,34 @@
 import React, { useEffect, useState } from "react";
 import quote from "../assets/quote.svg";
-// import sample from "../assets/lady.png";
+import arumun from "../assets/arumun.png";
+import instagram from "../assets/IG.svg";
+import carnage from "../assets/carnage.png";
+import linkedin from "../assets/LnkdIn.svg";
 
 export default function Testimonial() {
     const [currentSlide, setCurrentSlide] = useState(0);
     const testimonials = [
         {
             id: 1,
-            image: "/arumun.png",
+            image: arumun,
             text:
             `Working with Tersoo was an exceptional experience. Despite the tight deadline, 
             he was able to deliver a visually stunning and fully functional website in time for our annual conference. 
             I am thrilled with the outcome and highly recommend him for his talent and dedication.`,
             author: "Arumun Mee",
-            icon: "./IG.svg",
+            icon: instagram,
             icon_link: "https://www.instagram.com/meearumun/",
             company: "President of Africa Students Association in Russia ",
         },
         {
             id: 2,
-            image: "/carnage.png",
+            image: carnage,
             text:
             `It was an absolute pleasure collaborating with Tersoo as a colleague and team lead on the ChunkFile project. 
             His leadership skills and technical expertise, ensured the smooth execution and timely delivery of the project. 
             I highly recommend Tersoo as a valuable asset to any team`,
             author: "Ezekiel Okebule",
-            icon: "./LnkdIn.svg",
+            icon: linkedin,
             icon_link: "https://www.linkedin.com/in/ezekiel-okebule/",
             company: "Zuri Team 50",
         },
