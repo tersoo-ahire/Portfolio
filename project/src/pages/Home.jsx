@@ -188,7 +188,7 @@ function Home(){
 
                 <div className="section-three-left">
                     <div className="card1">
-                        <div className="card-p1">2</div>
+                        <div className="card-p1">3</div>
                         <div className="card-p2">Happy clients</div>
                     </div>
                     <div className="card2">
@@ -203,8 +203,8 @@ function Home(){
                         <div className="card-p2">Award Winnings</div>
                     </div>
                     <div className="card4">
-                        <div className="card-p1">2</div>
-                        <div className="card-p2">Years Experience</div>
+                        <div className="card-p1">1</div>
+                        <div className="card-p2">Year of Experience</div>
                     </div>
                 </div>
 
