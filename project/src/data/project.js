@@ -13,6 +13,7 @@ import bootstrap from "../assets/bootstrap.svg";
 import react from "../assets/react.svg";
 import vite from "../assets/vite.svg";
 import scss from "../assets/scss.svg";
+import nodejs from "../assets/nodejs.svg";
 
 export default [
     {
@@ -20,7 +21,7 @@ export default [
         project_name: "British AUC",
         project_description: 
         `Corporate website built using React for British American University Consulting. This site is fully responsive across all screens.`,
-        technology: [react, html, css, scss, javascript, vite, git, figma],
+        technology: [react, html, css, scss, javascript, nodejs, vite, git, figma],
         display1: "display1",
         display2: "display2",
         live_link: "https://www.britishauc.com/",
