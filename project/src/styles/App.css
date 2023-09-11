@@ -75,6 +75,7 @@ button:hover {
   padding-bottom: 1.5em;
   position: relative;
   overflow: hidden;
+  /* transition: 0.3s; */
 }
 
 #button-three:hover {
@@ -255,15 +256,15 @@ button:hover {
   border-radius: 40px;
   padding: 4em 1.25em 4em 1.25em;
   gap: 1em;
-  transition: width 0.5s, height 0.5s, transform 0.5s;
+  transition: 0.5s;
 }
 
 .skillcard:hover {
   background: linear-gradient(180deg, #58D898 0%, rgba(60, 143, 102, 0.5) 100%);
   box-shadow: 25px 25px 20px rgba(100, 244, 171, 0.16);
-  width: 55%;
-  height: 400px;
-  transform: rotate(1deg);
+  transform: scaleX(1.1);
+  transform: scaleY(1.1);
+  transform: rotate(2deg);
 }
 
 .skillcard:nth-child(even) {
@@ -372,11 +373,11 @@ button:hover {
   border-radius: 20px;
   padding: 1rem;
   gap: 1em;
+  transition: 0.3s;
 }
 
 .tool-bg:hover {
-  width: 130px;
-  height: 130px;
+  transform: scale(1.05);
 }
 
 .tool-bg > img {
@@ -630,7 +631,7 @@ button:hover {
   height: 350px;
   background: #25262A;
   border-radius: 40px 0px 0px 40px;
-  transition: width 1s, height 1s;
+  transition: 0.3s;
 }
 
 .card2 {
@@ -642,7 +643,7 @@ button:hover {
   width: 50%;
   height: 350px;
   background: #25262A;
-  transition: width 1s, height 1s;
+  transition: 0.3s;
 }
 
 .card3 {
@@ -654,7 +655,6 @@ button:hover {
   width: 50%;
   height: 350px;
   background: #25262A;
-  transition: width 1s, height 1s;
 }
 
 .card4 {
@@ -667,7 +667,7 @@ button:hover {
   height: 350px;
   background: #25262A;
   border-radius: 0px 40px 40px 0px;
-  transition: width 1s, height 1s;
+  transition: 0.3s;
 }
 
 .card-p1 {
@@ -1007,10 +1007,11 @@ textarea {
   bottom: 2em;
   right: 2em; 
   z-index: 10;
+  transition: 0.2s;
 }
 
 .whatsapp:hover {
-  width: 75px;
+  transform: scale(1.05);
 }
 
 section {
