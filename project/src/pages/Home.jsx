@@ -90,7 +90,7 @@ function Home(){
                         I am a strong communicator and able to work effectively as part of a team or individually to complete projects on time and to the highest standard. 
                         My skills, experience, and dedication to delivering high-quality work makes me an ideal candidate for your next project.
                     </p>
-                    <a href="https://drive.google.com/file/d/1jYB_CscaFw-kDKBr4Nq4I_esCTsM13MR/view?usp=sharing" target="_blank">
+                    <a href="https://drive.google.com/file/d/1FAZoeIrY4KD0MorQY7LAKng3ar92mWHq/view?usp=sharing" target="_blank">
                         <button className="button-two">Download CV</button>
                     </a>
                 </div>
@@ -188,11 +188,11 @@ function Home(){
 
                 <div className="section-three-left">
                     <div className="card1">
-                        <div className="card-p1">3</div>
+                        <div className="card-p1">4</div>
                         <div className="card-p2">Happy clients</div>
                     </div>
                     <div className="card2">
-                        <div className="card-p1">5</div>
+                        <div className="card-p1">6</div>
                         <div className="card-p2">Projects Done</div>
                     </div>
                 </div>
@@ -203,8 +203,8 @@ function Home(){
                         <div className="card-p2">Award Winnings</div>
                     </div>
                     <div className="card4">
-                        <div className="card-p1">1</div>
-                        <div className="card-p2">Year of Experience</div>
+                        <div className="card-p1">2</div>
+                        <div className="card-p2">Years of Experience</div>
                     </div>
                 </div>
 
