@@ -1,7 +1,15 @@
 import Image from "next/image";
 import React from "react";
 
-const SocialIcon = ({ icon, link }: { icon: string; link: string }) => {
+const SocialIcon = ({
+  icon,
+  link,
+  name,
+}: {
+  icon: string;
+  link: string;
+  name: string;
+}) => {
   return (
     <a
       href={link}
@@ -11,10 +19,10 @@ const SocialIcon = ({ icon, link }: { icon: string; link: string }) => {
     >
       <Image
         src={icon}
-        alt="Github Logo"
+        alt={name}
         width={30}
         height={30}
-        className="2xl:w-[60px] 2xl:h-[60px]"
+        className="w-[20px] h-[20px] md:w-[30px] md:h-[30px] 2xl:w-[60px] 2xl:h-[60px]"
       />
     </a>
   );

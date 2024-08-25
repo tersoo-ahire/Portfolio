@@ -40,6 +40,7 @@ const Navigation = () => {
           <SocialIcon
             icon="/github.svg"
             link="https://github.com/tersoo-ahire"
+            name="Github Logo"
           />
           <Button name="Contact Me" link="/contact" />
         </div>
