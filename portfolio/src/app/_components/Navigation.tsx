@@ -6,6 +6,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Button from "./Button";
 import SocialIcon from "./SocialIcon";
+import { scrollToTop } from "../utils/helpers";
 
 const navLinks = [
   { name: "Home", href: "/" },
@@ -18,9 +19,12 @@ const Navigation = () => {
   const [openMobileNav, setOpenMobileNav] = useState<boolean>(false);
 
   return (
-    <nav className="fixed z-50 flex flex-col items-center justify-center w-full">
+    <nav
+      className="fixed z-50 flex flex-col items-center justify-center w-full"
+      id="navigation"
+    >
       <div className="flex flex-row items-center justify-between w-full bg-primary px-4 py-[1.625rem] h-[80px] md:px-12 md:py-6 xl:py-8 xl:h-[90px] 2xl:px-28 2xl:h-[150px]">
-        <Link href="/" className="">
+        <Link href="/" onClick={() => scrollToTop("navigation")} className="">
           <Image
             src="/tersoo-logo.svg"
             alt="Portfolio Icon"
@@ -92,7 +96,10 @@ const NavLink = ({
   >
     <Link
       href={href}
-      onClick={() => setOpenMobileNav && setOpenMobileNav(false)}
+      onClick={() => {
+        setOpenMobileNav && setOpenMobileNav(false);
+        scrollToTop("navigation");
+      }}
       className="text-base md:text-[1.1rem] xl:text-[1.25rem] 2xl:text-[2.25rem]"
     >
       {children}

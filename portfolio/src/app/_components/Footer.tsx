@@ -1,6 +1,9 @@
+"use client"
+
 import Image from "next/image";
 import Link from "next/link";
 import SocialIcon from "./SocialIcon";
+import { scrollToTop } from "../utils/helpers";
 
 const Footer = () => {
   const socialIcons = [
@@ -28,7 +31,7 @@ const Footer = () => {
 
   return (
     <footer className="flex flex-col items-center justify-center gap-6 md:flex-row md:justify-between bg-primary w-full px-4 py-[1.625rem] md:px-12 md:py-6 xl:py-8 2xl:px-28 2xl:py-12">
-      <Link href="/">
+      <Link href="/" onClick={() => scrollToTop("navigation")}>
         <Image
           src="/tersoo-logo.svg"
           alt="Portfolio Icon"
@@ -54,13 +57,25 @@ const Footer = () => {
 
       <div className="flex flex-col gap-3 md:hidden">
         <p className="text-lg text-secondary font-bold">QUICK LINKS</p>
-        <Link href="/" className="text-sm text-center font-medium">
+        <Link
+          href="/"
+          onClick={() => scrollToTop("navigation")}
+          className="text-sm text-center font-medium"
+        >
           Home
         </Link>
-        <Link href="/portfolio" className="text-sm text-center font-medium">
+        <Link
+          href="/portfolio"
+          onClick={() => scrollToTop("navigation")}
+          className="text-sm text-center font-medium"
+        >
           Portfolio
         </Link>
-        <Link href="/contact" className="text-sm text-center font-medium">
+        <Link
+          href="/contact"
+          onClick={() => scrollToTop("navigation")}
+          className="text-sm text-center font-medium"
+        >
           Contact
         </Link>
       </div>
