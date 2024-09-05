@@ -46,7 +46,7 @@ const Navigation = () => {
             link="https://github.com/tersoo-ahire"
             name="Github Logo"
           />
-          <Button name="Contact Me" link="/contact" />
+          <Button name="Contact me" link="/contact" />
         </div>
         <Image
           src={openMobileNav ? "/cancel.svg" : "/bar.svg"}

@@ -80,7 +80,7 @@ const Footer = () => {
         </Link>
       </div>
       <p className="text-ash text-center block md:hidden xl:text-lg 2xl:text-4xl">
-        © 2023 - Ahire Tersoo David. All rights reserved.
+        © 2024 - Ahire Tersoo David. All rights reserved.
       </p>
     </footer>
   );

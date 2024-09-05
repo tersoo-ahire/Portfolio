@@ -17,6 +17,8 @@ const config: Config = {
         "primary": "#25262A",
         "secondary": "#ffa400",
         "ash": "#AFB3BC",
+        "neon-green": "#58D898",
+        "silver": "#E1E1E1",
       }
     },
   },
