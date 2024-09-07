@@ -19,6 +19,7 @@ const config: Config = {
         "ash": "#AFB3BC",
         "neon-green": "#58D898",
         "silver": "#E1E1E1",
+        "dark-silver": "#c5c9d1",
       }
     },
   },
